@@ -8,7 +8,7 @@ public class DemoFile
 	public static void main(String[] args) 
 	{
 		File f=new File("ritesh123");
-		System.out.println(f.exists());
+		
 		try 
 		{
 			f.createNewFile();
